@@ -1,6 +1,6 @@
 # [WACV 2024] Limited Data, Unlimited Potential: A Study on ViTs Augmented by Masked Autoencoders
 
----TEASER IMAGE---
+![Overview of self-supervised auxiliary task (SSAT)](smalldatavit.png)
 
 ## Installation
 
