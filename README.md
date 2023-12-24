@@ -41,8 +41,8 @@ The directory structure is the standard layout for the torchvision [`datasets.Im
 ## Pretrained model weights
 | Model  | Dataset | Evaluation Command|
 | ------------- | ------------- | ------------- |
-| ViT-T + SSAT ([weights](https://drive.google.com/file/d/1zD4t6m98UckQkk8f2V1PLIaPIH_0HqWS/view?usp=sharing)) | ImageNet-1k | `python main_two_branch.py --data_path /path/to/imagenet/ --resume vitsmall-ssat_imagenet1k_weights.pth --eval --model mae_vit_small` |
-| ViT-S + SSAT ([weights](https://drive.google.com/file/d/1Z6ynVVyxZavUjoRtRnIuYzLIW0zQJE4C/view?usp=sharing))  | ImageNet-1k | `python main_two_branch.py --data_path /path/to/imagenet/ --resume vittiny-ssat_imagenet1k_weights.pth --eval --model mae_vit_tiny` |
+| ViT-T + SSAT ([weights](https://drive.google.com/file/d/1zD4t6m98UckQkk8f2V1PLIaPIH_0HqWS/view?usp=sharing)) | ImageNet-1k | `python main_two_branch.py --data_path /path/to/imagenet/ --resume vittiny-ssat_imagenet1k_weights.pth --eval --model mae_vit_tiny` |
+| ViT-S + SSAT ([weights](https://drive.google.com/file/d/1Z6ynVVyxZavUjoRtRnIuYzLIW0zQJE4C/view?usp=sharing))  | ImageNet-1k | `python main_two_branch.py --data_path /path/to/imagenet/ --resume vitsmall-ssat_imagenet1k_weights.pth --eval --model mae_vit_small` |
 
 
 ## Training models
