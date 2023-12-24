@@ -1,0 +1,5 @@
+*.sh
+output_dir/
+data/
+__pycache__/
+*.pth
