@@ -1,4 +1,5 @@
 # [WACV 2024] Limited Data, Unlimited Potential: A Study on ViTs Augmented by Masked Autoencoders
+This is the official codebase for our paper "Limited Data, Unlimited Potential: A Study on ViTs Augmented by Masked Autoencoders" presented at WACV 2024. The paper can be viewed at [this link](https://arxiv.org/abs/2310.20704).
 
 ![Overview of self-supervised auxiliary task (SSAT)](smalldatavit.png)
 
