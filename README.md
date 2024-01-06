@@ -65,4 +65,4 @@ Available arguments for `--model` are `mae_vit_tiny`, `mae_vit_small`, `mae_vit_
 }
 ```
 
-This repository is built on top of the code for [Masked Autoencoders Are Scalable Vision Learners:](https://github.com/facebookresearch/mae) from Meta Research.
+This repository is built on top of the [code](https://github.com/facebookresearch/mae) for the paper [Masked Autoencoders Are Scalable Vision Learners](https://arxiv.org/abs/2111.06377) from Meta Research.
