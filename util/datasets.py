@@ -31,6 +31,9 @@ def build_dataset(is_train, args):
         dataset = datasets.CIFAR100(
                     root='./data', train=is_train, download=True, transform=transform
         )
+    elif args.data_path == 'svhn':
+        split = 'train' if is_train else 'test'
+        dataset = datasets.SVHN(root='./data', split=split, download=True, transform=transform)
     else:
         root = os.path.join(args.data_path, 'train' if is_train else 'val')
         dataset = datasets.ImageFolder(root, transform=transform)
